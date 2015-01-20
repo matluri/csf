@@ -1,0 +1,332 @@
+2015-01-19 17:45:22,850 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2015-01-19 17:45:23,079 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2015-01-19 17:45:23,146 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2015-01-19 17:45:23,151 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = D:\EUCLID\programs\Java8\jre\lib\endorsed
+	java.ext.dirs = D:\EUCLID\programs\Java8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = D:\EUCLID\programs\Java8\jre
+	java.io.tmpdir = C:\Users\madhuria\AppData\Local\Temp\
+	java.library.path = D:\EUCLID\programs\Java8\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Sencha\Cmd\5.0.1.231;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Live\Shared;D:\EUCLID\programs\Java8\bin;C:\ruby\bin;D:\EUCLID\programs\apache-maven-3.0.4\bin;C:\Program Files (x86)\Git\cmd;C:\Users\madhuria\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;D:\EUCLID\node-webkit;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_25-b18
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.25-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final
+	jboss.host.name = ibase119
+	jboss.modules.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\modules
+	jboss.node.name = ibase119
+	jboss.qualified.host.name = ibase119
+	jboss.server.base.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = ibase119
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/standalone/configuration/logging.properties
+	module.path = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = D:\EUCLID\programs\Java8\jre\lib\resources.jar;D:\EUCLID\programs\Java8\jre\lib\rt.jar;D:\EUCLID\programs\Java8\jre\lib\sunrsasign.jar;D:\EUCLID\programs\Java8\jre\lib\jsse.jar;D:\EUCLID\programs\Java8\jre\lib\jce.jar;D:\EUCLID\programs\Java8\jre\lib\charsets.jar;D:\EUCLID\programs\Java8\jre\lib\jfr.jar;D:\EUCLID\programs\Java8\jre\classes
+	sun.boot.library.path = D:\EUCLID\programs\Java8\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\jboss-modules.jar -mp D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	user.country = US
+	user.dir = D:\HarrisTeeter\workspace\csf
+	user.home = C:\Users\madhuria
+	user.language = en
+	user.name = madhuria
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+2015-01-19 17:45:23,152 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Dorg.jboss.boot.log.file=D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/standalone/log/server.log -Dlogging.configuration=file:D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/standalone/configuration/logging.properties 
+2015-01-19 17:45:24,630 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2015-01-19 17:45:24,658 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.3.0.Final
+2015-01-19 17:45:24,669 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.3.0.Final
+2015-01-19 17:45:24,703 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-01-19 17:45:24,737 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2015-01-19 17:45:24,737 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2015-01-19 17:45:24,740 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2015-01-19 17:45:24,749 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2015-01-19 17:45:24,756 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2015-01-19 17:45:24,758 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-01-19 17:45:24,778 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.21.Final
+2015-01-19 17:45:24,853 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2015-01-19 17:45:24,860 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2015-01-19 17:45:24,860 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017502: Undertow 1.1.0.Final starting
+2015-01-19 17:45:24,881 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2015-01-19 17:45:24,889 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010417: Started Driver service with driver-name = h2
+2015-01-19 17:45:24,915 INFO  [org.jboss.as.naming] (MSC service thread 1-8) JBAS011802: Starting Naming Service
+2015-01-19 17:45:24,919 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2015-01-19 17:45:25,047 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/welcome-content
+2015-01-19 17:45:25,095 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017525: Started server default-server.
+2015-01-19 17:45:25,317 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017531: Host default-host starting
+2015-01-19 17:45:25,345 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.6.Final
+2015-01-19 17:45:25,456 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-01-19 17:45:25,665 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2015-01-19 17:45:25,722 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\deployments
+2015-01-19 17:45:25,952 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2015-01-19 17:45:26,316 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2015-01-19 17:45:26,316 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2015-01-19 17:45:26,317 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 3936ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
+2015-01-19 17:45:28,656 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014900: Content added at location D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\data\content\06\b8d2370eba58044291439a1e5455d0db839140\content
+2015-01-19 17:45:28,673 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "csf.war" (runtime-name: "csf.war")
+2015-01-19 17:45:30,257 WARN  [org.jboss.as.ee] (MSC service thread 1-5) JBAS011006: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2015-01-19 17:45:30,258 WARN  [org.jboss.as.ee] (MSC service thread 1-5) JBAS011006: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2015-01-19 17:45:30,450 INFO  [io.undertow.servlet] (MSC service thread 1-8) No Spring WebApplicationInitializer types detected on classpath
+2015-01-19 17:45:30,468 INFO  [io.undertow.servlet] (MSC service thread 1-8) Initializing Spring root WebApplicationContext
+2015-01-19 17:45:30,470 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-8) Root WebApplicationContext: initialization started
+2015-01-19 17:45:30,525 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-8) Refreshing Root WebApplicationContext: startup date [Mon Jan 19 17:45:30 IST 2015]; root of context hierarchy
+2015-01-19 17:45:30,550 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (MSC service thread 1-8) Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+2015-01-19 17:45:30,854 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-8) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-01-19 17:45:31,259 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.euclid.controller.BaseController.welcome(org.springframework.ui.ModelMap)
+2015-01-19 17:45:31,260 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/{name}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.euclid.controller.BaseController.welcomeName(java.lang.String,org.springframework.ui.ModelMap)
+2015-01-19 17:45:31,282 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.1.3.Final
+2015-01-19 17:45:31,591 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-8) Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Jan 19 17:45:30 IST 2015]; root of context hierarchy
+2015-01-19 17:45:31,629 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-8) Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Jan 19 17:45:30 IST 2015]; root of context hierarchy
+2015-01-19 17:45:31,681 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-8) Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-01-19 17:45:31,684 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-8) Mapped URL path [/views/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-01-19 17:45:31,693 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-8) Root WebApplicationContext: initialization completed in 1222 ms
+2015-01-19 17:45:31,753 INFO  [io.undertow.servlet] (MSC service thread 1-8) Initializing Spring FrameworkServlet 'mvc-dispatcher'
+2015-01-19 17:45:31,753 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-8) FrameworkServlet 'mvc-dispatcher': initialization started
+2015-01-19 17:45:31,756 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-8) Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jan 19 17:45:31 IST 2015]; parent: Root WebApplicationContext
+2015-01-19 17:45:31,756 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (MSC service thread 1-8) Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+2015-01-19 17:45:31,815 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-8) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-01-19 17:45:31,834 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.euclid.controller.BaseController.welcome(org.springframework.ui.ModelMap)
+2015-01-19 17:45:31,834 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/{name}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.euclid.controller.BaseController.welcomeName(java.lang.String,org.springframework.ui.ModelMap)
+2015-01-19 17:45:31,852 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-8) Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jan 19 17:45:31 IST 2015]; parent: Root WebApplicationContext
+2015-01-19 17:45:31,865 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-8) Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jan 19 17:45:31 IST 2015]; parent: Root WebApplicationContext
+2015-01-19 17:45:31,886 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-8) Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-01-19 17:45:31,889 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-8) Mapped URL path [/views/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-01-19 17:45:31,902 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-8) FrameworkServlet 'mvc-dispatcher': initialization completed in 149 ms
+2015-01-19 17:45:31,902 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017534: Registered web context: /csf
+2015-01-19 17:45:32,191 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018559: Deployed "csf.war" (runtime-name : "csf.war")
+2015-01-19 17:45:51,722 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017535: Unregistered web context: /csf
+2015-01-19 17:45:51,751 INFO  [io.undertow.servlet] (MSC service thread 1-5) Destroying Spring FrameworkServlet 'mvc-dispatcher'
+2015-01-19 17:45:51,752 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-5) Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jan 19 17:45:31 IST 2015]; parent: Root WebApplicationContext
+2015-01-19 17:45:51,776 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) JBAS014613: Operation ("shutdown") failed - address: ([]) - failure description: "JBAS014863: Operation cancelled asynchronously"
+2015-01-19 17:45:51,777 WARN  [org.jboss.as.controller.management-operation] (management-handler-thread - 2) JBAS014626: Operation was interrupted before stability could be reached
+2015-01-19 17:45:51,787 INFO  [io.undertow.servlet] (MSC service thread 1-5) Closing Spring root WebApplicationContext
+2015-01-19 17:45:51,787 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-5) Closing Root WebApplicationContext: startup date [Mon Jan 19 17:45:30 IST 2015]; root of context hierarchy
+2015-01-19 17:45:51,801 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017532: Host default-host stopping
+2015-01-19 17:45:51,817 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-01-19 17:45:51,819 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = h2
+2015-01-19 17:45:51,828 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017521: Undertow HTTP listener default suspending
+2015-01-19 17:45:51,829 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017520: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2015-01-19 17:45:51,830 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017506: Undertow 1.1.0.Final stopping
+2015-01-19 17:45:51,878 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment csf.war (runtime-name: csf.war) in 194ms
+2015-01-19 17:45:51,882 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 199ms
+2015-01-19 18:21:41,375 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2015-01-19 18:21:41,654 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2015-01-19 18:21:41,724 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2015-01-19 18:21:41,729 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = D:\EUCLID\programs\Java8\jre\lib\endorsed
+	java.ext.dirs = D:\EUCLID\programs\Java8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = D:\EUCLID\programs\Java8\jre
+	java.io.tmpdir = C:\Users\madhuria\AppData\Local\Temp\
+	java.library.path = D:\EUCLID\programs\Java8\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Sencha\Cmd\5.0.1.231;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Live\Shared;D:\EUCLID\programs\Java8\bin;C:\ruby\bin;D:\EUCLID\programs\apache-maven-3.0.4\bin;C:\Program Files (x86)\Git\cmd;C:\Users\madhuria\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;D:\EUCLID\node-webkit;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_25-b18
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.25-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final
+	jboss.host.name = ibase119
+	jboss.modules.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\modules
+	jboss.node.name = ibase119
+	jboss.qualified.host.name = ibase119
+	jboss.server.base.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = ibase119
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/standalone/configuration/logging.properties
+	module.path = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = D:\EUCLID\programs\Java8\jre\lib\resources.jar;D:\EUCLID\programs\Java8\jre\lib\rt.jar;D:\EUCLID\programs\Java8\jre\lib\sunrsasign.jar;D:\EUCLID\programs\Java8\jre\lib\jsse.jar;D:\EUCLID\programs\Java8\jre\lib\jce.jar;D:\EUCLID\programs\Java8\jre\lib\charsets.jar;D:\EUCLID\programs\Java8\jre\lib\jfr.jar;D:\EUCLID\programs\Java8\jre\classes
+	sun.boot.library.path = D:\EUCLID\programs\Java8\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\jboss-modules.jar -mp D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	user.country = US
+	user.dir = D:\HarrisTeeter\workspace\csf
+	user.home = C:\Users\madhuria
+	user.language = en
+	user.name = madhuria
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+2015-01-19 18:21:41,730 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Dorg.jboss.boot.log.file=D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/standalone/log/server.log -Dlogging.configuration=file:D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/standalone/configuration/logging.properties 
+2015-01-19 18:21:43,272 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2015-01-19 18:21:43,303 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.3.0.Final
+2015-01-19 18:21:43,321 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.3.0.Final
+2015-01-19 18:21:43,352 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2015-01-19 18:21:43,364 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2015-01-19 18:21:43,370 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2015-01-19 18:21:43,394 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2015-01-19 18:21:43,404 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.21.Final
+2015-01-19 18:21:43,405 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2015-01-19 18:21:43,504 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-01-19 18:21:43,550 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2015-01-19 18:21:43,615 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2015-01-19 18:21:43,623 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017502: Undertow 1.1.0.Final starting
+2015-01-19 18:21:43,679 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2015-01-19 18:21:43,693 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-01-19 18:21:43,697 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010417: Started Driver service with driver-name = h2
+2015-01-19 18:21:44,089 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+2015-01-19 18:21:44,093 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2015-01-19 18:21:44,139 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final/welcome-content
+2015-01-19 18:21:44,234 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2015-01-19 18:21:44,235 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.6.Final
+2015-01-19 18:21:44,255 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017531: Host default-host starting
+2015-01-19 18:21:44,332 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-01-19 18:21:44,374 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\deployments
+2015-01-19 18:21:44,619 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2015-01-19 18:21:44,994 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2015-01-19 18:21:45,174 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2015-01-19 18:21:45,176 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2015-01-19 18:21:45,176 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 4384ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
+2015-01-19 18:21:48,416 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014900: Content added at location D:\HarrisTeeter\workspace\csf\target\wildfly-run\wildfly-8.2.0.Final\standalone\data\content\a0\137027bcb55e12560bac5b9b089304f1a9b6a4\content
+2015-01-19 18:21:48,450 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "csf.war" (runtime-name: "csf.war")
+2015-01-19 18:21:51,943 WARN  [org.jboss.as.ee] (MSC service thread 1-8) JBAS011006: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2015-01-19 18:21:51,944 WARN  [org.jboss.as.ee] (MSC service thread 1-8) JBAS011006: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2015-01-19 18:21:52,222 INFO  [io.undertow.servlet] (MSC service thread 1-4) No Spring WebApplicationInitializer types detected on classpath
+2015-01-19 18:21:52,238 INFO  [io.undertow.servlet] (MSC service thread 1-4) Initializing Spring root WebApplicationContext
+2015-01-19 18:21:52,239 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-4) Root WebApplicationContext: initialization started
+2015-01-19 18:21:52,336 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-4) Refreshing Root WebApplicationContext: startup date [Mon Jan 19 18:21:52 IST 2015]; root of context hierarchy
+2015-01-19 18:21:52,377 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (MSC service thread 1-4) Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+2015-01-19 18:21:52,724 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-4) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-01-19 18:21:53,534 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-4) Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.euclid.controller.BaseController.welcome(org.springframework.ui.ModelMap)
+2015-01-19 18:21:53,535 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-4) Mapped "{[/{name}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.euclid.controller.BaseController.welcomeName(java.lang.String,org.springframework.ui.ModelMap)
+2015-01-19 18:21:53,565 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.3.Final
+2015-01-19 18:21:53,984 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-4) Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Jan 19 18:21:52 IST 2015]; root of context hierarchy
+2015-01-19 18:21:54,017 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-4) Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Jan 19 18:21:52 IST 2015]; root of context hierarchy
+2015-01-19 18:21:54,062 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-4) Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-01-19 18:21:54,064 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-4) Mapped URL path [/views/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-01-19 18:21:54,074 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-4) Root WebApplicationContext: initialization completed in 1834 ms
+2015-01-19 18:21:54,131 INFO  [io.undertow.servlet] (MSC service thread 1-4) Initializing Spring FrameworkServlet 'mvc-dispatcher'
+2015-01-19 18:21:54,131 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-4) FrameworkServlet 'mvc-dispatcher': initialization started
+2015-01-19 18:21:54,134 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-4) Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jan 19 18:21:54 IST 2015]; parent: Root WebApplicationContext
+2015-01-19 18:21:54,135 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (MSC service thread 1-4) Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+2015-01-19 18:21:54,189 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-4) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-01-19 18:21:54,213 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-4) Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.euclid.controller.BaseController.welcome(org.springframework.ui.ModelMap)
+2015-01-19 18:21:54,214 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-4) Mapped "{[/{name}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.euclid.controller.BaseController.welcomeName(java.lang.String,org.springframework.ui.ModelMap)
+2015-01-19 18:21:54,228 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-4) Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jan 19 18:21:54 IST 2015]; parent: Root WebApplicationContext
+2015-01-19 18:21:54,239 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-4) Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jan 19 18:21:54 IST 2015]; parent: Root WebApplicationContext
+2015-01-19 18:21:54,261 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-4) Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-01-19 18:21:54,264 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-4) Mapped URL path [/views/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-01-19 18:21:54,277 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-4) FrameworkServlet 'mvc-dispatcher': initialization completed in 146 ms
+2015-01-19 18:21:54,278 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017534: Registered web context: /csf
+2015-01-19 18:21:54,405 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018559: Deployed "csf.war" (runtime-name : "csf.war")
+2015-01-19 18:30:37,697 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017535: Unregistered web context: /csf
+2015-01-19 18:30:37,715 INFO  [io.undertow.servlet] (MSC service thread 1-2) Destroying Spring FrameworkServlet 'mvc-dispatcher'
+2015-01-19 18:30:37,715 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-2) Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Jan 19 18:21:54 IST 2015]; parent: Root WebApplicationContext
+2015-01-19 18:30:37,731 INFO  [io.undertow.servlet] (MSC service thread 1-2) Closing Spring root WebApplicationContext
+2015-01-19 18:30:37,732 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-2) Closing Root WebApplicationContext: startup date [Mon Jan 19 18:21:52 IST 2015]; root of context hierarchy
+2015-01-19 18:30:37,745 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 4) JBAS014613: Operation ("shutdown") failed - address: ([]) - failure description: "JBAS014863: Operation cancelled asynchronously"
+2015-01-19 18:30:37,745 WARN  [org.jboss.as.controller.management-operation] (management-handler-thread - 4) JBAS014626: Operation was interrupted before stability could be reached
+2015-01-19 18:30:37,767 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017532: Host default-host stopping
+2015-01-19 18:30:37,779 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-01-19 18:30:37,783 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010418: Stopped Driver service with driver-name = h2
+2015-01-19 18:30:37,788 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017521: Undertow HTTP listener default suspending
+2015-01-19 18:30:37,789 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017520: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2015-01-19 18:30:37,792 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017506: Undertow 1.1.0.Final stopping
+2015-01-19 18:30:37,848 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment csf.war (runtime-name: csf.war) in 184ms
+2015-01-19 18:30:37,851 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 188ms
